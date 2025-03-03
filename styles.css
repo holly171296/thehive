@@ -218,3 +218,46 @@ footer a:hover {
         padding: 12px;
     }
 }
+
+/* Estilos para la sección "¿Por qué elegir The Hive?" */
+#caracteristicas {
+    background-color: #f4f4f4;
+    padding: 40px 50px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.caracteristicas-contenedor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.caracteristicas-texto {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.caracteristicas-imagenes {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.caracteristica-imagen {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.caracteristica-imagen:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
